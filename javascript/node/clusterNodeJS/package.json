@@ -1,0 +1,21 @@
+{
+  "name": "clusterNodeJS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cluster.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "dependencies": {
+    "autocannon": "^4.1.1",
+    "chalk": "^2.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start:cluster": "node cluster.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,9 @@
+install global https://www.npmjs.com/package/autocannon
+for example rut test: autocannon -c 1000 -d 60 http://localhost:3000/ ---- where
+-c is count opened conections
+-d is timer(sec)
+autocannon you need install better in global(-g) environment 
+****************************************************************
+if you'll use one thread, then run server.js
+if you'll use multi threading, then run cluster.js
+if you need stop some kind thread enter next commands: KILL <pid>, TASKKILL /F /PID <pid>(for the Windows OS)

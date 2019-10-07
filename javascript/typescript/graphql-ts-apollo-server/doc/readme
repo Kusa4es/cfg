@@ -1,0 +1,21 @@
+https://www.apollographql.com/docs/apollo-server 
+
+******************************
+$env:NODE_ENV="development" or "production" for windows 10 in powershell
+setting in package.json --->  "build": "webpack --config webpack.%NODE_ENV%.js"
+
+******************************
+launch typescript server:
+1)npm run build
+2)npm run start
+ 
+include ignore next folders and files:
+dist
+node_modules
+package-lock.json
+
+******************************
+
+WARNING:
+if you not use .env, you need delete parametrs "--require dotenv/config"
+in package.json, block "scripts"

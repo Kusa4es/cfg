@@ -1,0 +1,28 @@
+https://nextjs.org/learn/excel/typescript/setup -- learn nextjs to typescript
+https://nextjs.org/docs#typescript --- nextjs typescript documentation
+
+******************************
+$env:NODE_ENV="development" or "production" for windows 10 in powershell
+setting in package.json --->  "build:ts": "webpack --config webpack.%NODE_ENV%.js"
+
+******************************
+launch typescript custom server:
+1)npm run build:ts
+2)npm run start:ts
+
+include ignore next folders and files:
+.next
+dist
+node_modules
+next-env.d.ts
+package-lock.json
+
+*********DEPRECATED***********
+launch typescript default server(from box):
+1) npm run build
+2) npm  start 
+******************************
+
+WARNING:
+if you not use .env, you need delete parametrs "--require dotenv/config"
+in package.json, block "scripts"
