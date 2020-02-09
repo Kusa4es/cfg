@@ -1,0 +1,20 @@
+{
+  "name": "testapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server:debug": "node --inspect server.js",
+    "start": "node src/main.js",
+    "test": "mocha --inspect test/*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^7.0.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
